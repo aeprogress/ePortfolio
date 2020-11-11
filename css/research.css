@@ -1,0 +1,42 @@
+body 
+{
+    font-size: 15pt;
+    background-color: whitesmoke;
+}
+
+#container
+{
+    margin: 3% auto;
+    padding: 5% 5%;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Athiti';
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#container p 
+{
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.assignment
+{
+    margin-top: 6%;
+}
+
+.underline 
+{
+    text-decoration: underline;
+}
+
+.assignmentBody
+{
+    text-align: left;
+    margin-bottom: 5%;
+    
+}
+

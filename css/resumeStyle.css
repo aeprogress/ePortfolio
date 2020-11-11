@@ -1,0 +1,79 @@
+.body
+{
+    background-color: rgb(250, 253, 255);
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav 
+{
+    position: sticky;
+}
+
+.project:hover ul
+{
+    display: block;
+    position: absolute;
+    top: 140%;
+    left: 14%;
+    z-index: 2;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 6px 15px 0 rgba(0, 0, 0, 0.19);
+}
+
+.resume-body
+{
+
+    width: 50%;
+    margin: 5% auto;
+    border-top: solid 1px rgb(0, 102, 255);
+    border-bottom: solid 1px rgb(0, 102, 255);
+}
+.name
+{
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 2% 0%;
+    color: #444444;
+    font-weight: normal;
+    font-size: 22pt;
+    font-family: 'Crete Round', serif;
+    text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.naemLable
+{
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: solid 1px rgb(0, 102, 255);
+    color: #333333;
+    font-weight: bold;
+    font-size: 20pt;
+    font-family: 'Athiti';
+    text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.bodyLable
+{
+    width: 100%;
+    margin: 5% 0% 0% 0%;
+    border-bottom: solid 1px rgb(205, 151, 50);
+    font-weight: bold;
+    font-size: 15pt;
+    color: #333333;
+    font-family: 'Athiti';
+}
+.subLable
+{
+    margin-top: 3%;
+    font-weight: bold;
+    font-size: 14pt;
+    color: #333333;
+    font-family: 'Athiti';
+}
+.tail
+{
+    position: relative;
+    top: 15vh;
+}

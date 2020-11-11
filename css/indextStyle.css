@@ -1,0 +1,244 @@
+@media all 
+{
+body 
+{
+    background-color: rgb(250, 253, 255);
+}
+
+.tableFrame
+{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 92vh;
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: inherit;
+}
+.midBody
+{
+    position: relative;
+    top: 10%;
+    float: left;
+    margin-bottom: 18%;
+    letter-spacing: 1px;
+    text-align: left;
+}
+#tleft
+{
+    width: 48%;
+    align-self: center;
+    position: relative;
+    left: 0%;
+    padding: 3% 3%;
+    border-right: solid 1px lightgray;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: white;
+    background-image: url("../images/Bold-geometric-shapes-modern-bauhaus-wallpaper-mural-825x535.jpg");
+    background-repeat: none;
+    background-attachment: fixed;
+    font-weight: normal;
+    font-size: 22pt;
+    font-family: 'Athiti';
+    letter-spacing: 1px;
+    text-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+
+}
+#tleft p 
+{
+    text-align: center;
+    position: relative;
+    width: 75%;
+    margin: 0;
+    padding: 0;
+    left: 30%;
+    font-size: 18pt;
+    background-color: #32af669d;
+}
+#tright
+{
+    padding: 5% 16% 0% 9%;
+    float: left;
+    font-size: 17pt;
+    color: #333333;
+    text-align: justify;
+    font-family: 'Athiti';
+    font-weight: normal;
+}
+
+#introVid 
+{
+    margin-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#introVid p 
+{
+    margin-bottom: 3%;
+    font-weight: normal;
+    font-size: 22pt;
+    font-family: 'Athiti';
+}
+
+#profGoals
+{
+    display: block;
+    margin-left: 25%;
+    margin-top: 5%;
+    color: #333333;
+    padding: 1%;
+    width: 50%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 15pt;
+    text-decoration: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profGoals:hover
+{
+    background-color: rgba(136, 192, 238, 0.658);
+    border: none;
+}
+.midBody2
+{
+    /*display: none;*/
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 9%;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.midBody2 #tleft1
+{
+    width: 35%;
+    position: relative;
+    left: 2%;
+    padding: 3% 6% 0% 6%;
+    float: left;
+    font-size: 17pt;
+    color: #333333;
+    font-family: 'Athiti';
+    font-weight: normal;
+    text-align: justify;
+}
+#ProfLabel
+{
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+.midBody2 #tright1
+{
+    display: flex;
+    float: right;
+    width: 32%;
+    height: 30vh;
+    background-color: rgb(142, 165, 189);
+    /*rgb(26, 98, 180);*/
+    color: white;
+    padding: 8% 10%;
+    border-radius: 5px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: normal;
+    font-size: 21pt;
+    font-family: 'Athiti';
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-container 
+{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+#upDownFrame
+{
+    width: auto;
+
+}
+
+#upDownFrame button 
+{
+    margin-right: 8vh;
+}
+
+.button-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonUp
+{
+    width: 46.01px;
+    height: 10vh;
+    margin-bottom: 4vh;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/Arrow\ up.png");
+    background-repeat: no-repeat;
+}
+.upDownC 
+{
+    height: 1.2vh;
+    width: 1.2vh;
+    margin-left: 24%;
+    margin-bottom: 30%;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.062), 0 1px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#buttonDown
+{
+    margin-top: 0vh;
+    width: 46.01px;
+    height: 10vh;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/ArrowDown.png");
+    background-repeat: no-repeat;
+}
+#udc1
+{
+    background-color: black;
+}
+::-webkit-scrollbar 
+{
+    width: 3px;
+    background-color: rgb(250, 253, 255);
+}
+::-webkit-scrollbar-thumb 
+{
+    display: none;
+}
+.tableFrame:hover::-webkit-scrollbar-thumb 
+{
+    display: block;
+    background: rgb(139, 139, 139);
+}
+#line
+{
+    position: relative; top: 35vh; 
+    left: 25%; 
+    width: 45%; 
+    background-color: rgb(218, 218, 218); 
+    height: .5px;
+}
+.tail
+{
+    top: 0vh;
+    background-color: whitesmoke;
+    border-top: none;
+}
+}
